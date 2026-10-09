@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan Career Support | 日本語面接ワークショップ</title>
+<meta name="description" content="日本・日系企業への就職を考える学生のための、日本語面接の実践ワークショップ（オンライン60分）。Japanese interview practice workshop for students considering jobs in Japan.">
+<meta property="og:title" content="Japan Career Support | 日本語面接ワークショップ">
+<meta property="og:description" content="回答→フィードバック→再回答。学生自身の経験を日本語で伝える実践練習。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E2240'/%3E%3Ctext x='32' y='44' font-family='Arial' font-size='34' font-weight='800' fill='white' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F7F8FA;--white:#fff;--navy:#0E2240;--blue:#2F5DA8;--slate:#5B6B80;--line:#DDE3EA;--amber:#C98A2B;--green:#2E7D5B;--onnavy:#F7F8FA}
+@media (prefers-color-scheme:dark){:root{--paper:#0B1626;--white:#12233B;--navy:#EAF0F8;--blue:#8DB0EC;--slate:#A9B8CC;--line:#26395A;--amber:#E0A94F;--green:#5CC096;--onnavy:#0B1626}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--navy);font:16px/1.8 "Zen Kaku Gothic New","Plus Jakarta Sans","Hiragino Sans","Yu Gothic",Meiryo,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:4px}
+
+/* header */
+header{position:sticky;top:0;z-index:10;background:var(--white);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+.brand{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;letter-spacing:-.01em;line-height:1.25;white-space:nowrap}
+.brand small{display:block;font-weight:500;color:var(--slate);font-size:11px;letter-spacing:0}
+nav{display:flex;gap:2px;flex-wrap:wrap;justify-content:flex-end}
+nav a{color:var(--slate);text-decoration:none;font-size:13px;padding:6px 9px;border-radius:6px}
+nav a:hover{color:var(--navy);background:var(--paper)}
+.lang{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;flex:none}
+.lang button{border:0;background:transparent;color:var(--slate);padding:6px 12px;font:inherit;font-size:13px;cursor:pointer;min-height:32px}
+.lang button[aria-pressed=true]{background:var(--navy);color:var(--onnavy);font-weight:700}
+@media (max-width:760px){nav{display:none}}
+
+/* hero */
+.hero{padding:56px 0 40px}
+.eyebrow{font:700 12px/1 "Plus Jakarta Sans",system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin:0 0 14px}
+h1{font-size:clamp(26px,5.2vw,40px);line-height:1.35;margin:0 0 16px;letter-spacing:-.01em;font-weight:700}
+.lead{color:var(--slate);font-size:18px;margin:0 0 22px;max-width:640px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
+.facts li{border:1px solid var(--line);background:var(--white);border-radius:999px;padding:4px 14px;font-size:14px;margin:0}
+.cta{display:inline-block;background:var(--navy);color:var(--onnavy);padding:13px 24px;border-radius:8px;text-decoration:none;font-weight:700}
+.cta:hover{opacity:.9}
+.cta2{display:inline-block;margin-left:14px;color:var(--blue);font-size:15px}
+
+/* sections */
+section{padding:34px 0;border-top:1px solid var(--line)}
+h2{font-size:22px;margin:0 0 6px;line-height:1.4}
+.sub{color:var(--slate);margin:0 0 16px;font-size:15px}
+h3{font-size:16px;margin:0 0 6px}
+ul{padding-left:1.2em;margin:.4em 0}li{margin:.35em 0}
+.card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:12px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:separate;border-spacing:0;background:var(--white);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{text-align:left;padding:11px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{width:100px;white-space:nowrap;color:var(--blue);font:700 13px/1.8 "Zen Kaku Gothic New",system-ui,sans-serif}
+tr:last-child th,tr:last-child td{border-bottom:0}
+.note{color:var(--slate);font-size:14px}
+
+/* timeline */
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{display:grid;grid-template-columns:76px 1fr;gap:4px 14px;padding:12px 0;border-bottom:1px solid var(--line);margin:0}
+ol.steps li:last-child{border-bottom:0}
+.t{font:700 13px/1.9 "Plus Jakarta Sans",system-ui,sans-serif;color:var(--blue);letter-spacing:.02em}
+.steps b{display:block;font-weight:700}
+.steps span.d{color:var(--slate);font-size:14px}
+
+/* example */
+.ba{border-radius:12px;padding:16px 18px;border:1px solid var(--line);background:var(--white)}
+.ba .k{font:700 11px/1 "Plus Jakarta Sans",system-ui,sans-serif;letter-spacing:.1em;margin:0 0 10px}
+.ba.before{border-left:4px solid var(--amber)}.ba.before .k{color:var(--amber)}
+.ba.after{border-left:4px solid var(--green)}.ba.after .k{color:var(--green)}
+.ba p{margin:0}
+.ba mark{background:transparent;color:var(--blue);font-weight:700}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--amber);color:var(--amber);border-radius:999px;padding:1px 10px;margin-left:6px;vertical-align:middle;white-space:nowrap}
+
+/* faq */
+details{background:var(--white);border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:0}
+summary{cursor:pointer;padding:13px 18px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--blue);font-weight:700;flex:none}
+details[open] summary::after{content:"−"}
+details .a{padding:0 18px 14px;color:var(--slate);font-size:15px}
+
+footer{padding:28px 0 56px;color:var(--slate);font-size:13px;border-top:1px solid var(--line)}
+
+/* language switching */
+[data-l]{display:none}
+html[lang=ja] [data-l=ja],html[lang=en] [data-l=en]{display:revert}
+html[lang=ja] li[data-l=ja],html[lang=en] li[data-l=en]{display:list-item}
+html[lang=ja] ol[data-l=ja],html[lang=en] ol[data-l=en],html[lang=ja] ul[data-l=ja],html[lang=en] ul[data-l=en]{display:block}
+html[lang=ja] ul.facts[data-l=ja],html[lang=en] ul.facts[data-l=en]{display:flex}
+html[lang=ja] span[data-l=ja],html[lang=en] span[data-l=en],html[lang=ja] b[data-l=ja],html[lang=en] b[data-l=en]{display:inline}
+html[lang=ja] ol.steps b[data-l=ja],html[lang=en] ol.steps b[data-l=en]{display:block}
+html[lang=ja] .grid2[data-l=ja],html[lang=en] .grid2[data-l=en]{display:grid}
+@media (max-width:520px){
+html[lang=ja] th[data-l=ja],html[lang=en] th[data-l=en]{display:block;width:auto;border-bottom:0;padding-bottom:0}
+html[lang=ja] td[data-l=ja],html[lang=en] td[data-l=en]{display:block}
+ol.steps li{grid-template-columns:1fr}
+.cta2{display:block;margin:12px 0 0}}
+
+@media print{
+header nav,.lang,.cta,.cta2{display:none}
+header{position:static;border:0}
+body{background:#fff;color:#000;font-size:11pt}
+section{break-inside:avoid;padding:14px 0}
+details{border:0}details .a{display:block}
+summary::after{content:""}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand">Japan Career Support<small>Japanese for real work.</small></div>
+  <nav aria-label="Page sections">
+    <a href="#outline" data-l="ja">概要</a><a href="#flow" data-l="ja">流れ</a><a href="#example" data-l="ja">改善例</a><a href="#roles" data-l="ja">役割</a><a href="#faq" data-l="ja">FAQ</a><a href="#contact" data-l="ja">連絡先</a>
+    <a href="#outline" data-l="en">Overview</a><a href="#flow" data-l="en">Session</a><a href="#example" data-l="en">Example</a><a href="#roles" data-l="en">Roles</a><a href="#faq" data-l="en">FAQ</a><a href="#contact" data-l="en">Contact</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-set="ja" aria-pressed="true">日本語</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+</div></header>
+
+<main class="wrap">
+<div class="hero">
+  <p class="eyebrow" data-l="ja">Interview practice workshop</p>
+  <p class="eyebrow" data-l="en">Interview practice workshop</p>
+  <h1 data-l="ja">日本語で、自分の経験を<br>面接で伝える実践ワークショップ</h1>
+  <h1 data-l="en">A practical workshop for explaining your experience in a Japanese job interview</h1>
+  <p class="lead" data-l="ja">日本や日系企業への就職を考える学生が、自己PRなどの質問に答え、改善点を確認し、もう一度話して練習します。暗記用の例文を配る講座ではありません。</p>
+  <p class="lead" data-l="en">Students considering jobs in Japan or with Japanese companies answer a question, see how to improve it, and try again. This is not a handout of memorised sample answers.</p>
+  <ul class="facts" data-l="ja"><li>オンライン60分</li><li>8〜12名</li><li>録画なし</li><li>試験導入は無料（最初の2大学）</li></ul>
+  <ul class="facts" data-l="en"><li>60 minutes, online</li><li>8–12 students</li><li>Not recorded</li><li>Free pilot (first two universities)</li></ul>
+  <a class="cta" href="mailto:japancareer.support@gmail.com?subject=%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%9D%A2%E6%8E%A5%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%20%2F%20Interview%20workshop">
+    <span data-l="ja">大学・学科のご担当者様：相談する</span><span data-l="en">For university staff: get in touch</span></a>
+  <a class="cta2" href="#flow"><span data-l="ja">60分の流れを見る →</span><span data-l="en">See the 60 minutes →</span></a>
+</div>
+
+<section id="outline">
+  <h2 data-l="ja">講座の概要</h2><h2 data-l="en">At a glance</h2>
+  <table>
+    <tr><th data-l="ja">対象</th><th data-l="en">Audience</th>
+      <td data-l="ja">日本での就職・日系企業への就職を検討する学生。日本語N2〜N3相当を目安とし、資格は不要です。簡単な自己紹介と質問への受け答えができれば参加できます。</td>
+      <td data-l="en">Students considering jobs in Japan or with Japanese companies. About N2–N3; no certificate required. Being able to give a simple self-introduction and answer simple questions is enough.</td></tr>
+    <tr><th data-l="ja">形式</th><th data-l="en">Format</th>
+      <td data-l="ja">オンライン60分／8〜12名／録画なし。日時は貴学の授業・就職支援の予定に合わせて調整します。</td>
+      <td data-l="en">60 minutes online / 8–12 students / not recorded. The date is arranged around your teaching and career-support calendar.</td></tr>
+    <tr><th data-l="ja">軸</th><th data-l="en">Approach</th>
+      <td data-l="ja">回答 → フィードバック → 再回答。学生自身の実際の経験を整理して話す練習で、他人の例文の暗記ではありません。</td>
+      <td data-l="en">Answer → feedback → answer again, working from each student's own real experience rather than memorising someone else's sample.</td></tr>
+    <tr><th data-l="ja">試験導入</th><th data-l="en">Pilot</th>
+      <td data-l="ja">最初の2大学に限り、双方合意の上で無料体験を提案します。継続講座は別途お見積りです。</td>
+      <td data-l="en">A complimentary session for the first two participating universities, by mutual agreement. Further sessions are quoted separately.</td></tr>
+  </table>
+</section>
+
+<section id="flow">
+  <h2 data-l="ja">60分の流れ</h2><h2 data-l="en">The 60 minutes</h2>
+  <p class="sub" data-l="ja">全員が自分の回答を「2回」話します。1回目と2回目の差が、その日の成果です。</p>
+  <p class="sub" data-l="en">Every student answers twice. The difference between the first and second answer is the result of the day.</p>
+  <div class="card">
+  <ol class="steps" data-l="ja">
+    <li><span class="t">0–5分</span><div><b>はじめに</b><span class="d">目的と練習のルール。間違えてよい／発言は任意／録画なし。</span></div></li>
+    <li><span class="t">5–12分</span><div><b>1回目の回答</b><span class="d">質問に対して、各自がメモや自分の端末に任意で記録します。</span></div></li>
+    <li><span class="t">12–22分</span><div><b>答え方の型</b><span class="d">結論 → 具体例 → 自分の行動 → 結果 → 応募先との接点。</span></div></li>
+    <li><span class="t">22–37分</span><div><b>ペア練習</b><span class="d">2人組で回答と深掘り質問。講師が巡回し、共通の改善点を整理します。</span></div></li>
+    <li><span class="t">37–48分</span><div><b>2回目の回答</b><span class="d">同じ質問にもう一度。希望者には講師が全体の前でフィードバックします。</span></div></li>
+    <li><span class="t">48–60分</span><div><b>振り返り</b><span class="d">次に練習する質問を各自が記入。質疑とアンケート。</span></div></li>
+  </ol>
+  <ol class="steps" data-l="en">
+    <li><span class="t">0–5 min</span><div><b>Opening</b><span class="d">Purpose and ground rules: mistakes are fine, speaking is optional, no recording.</span></div></li>
+    <li><span class="t">5–12 min</span><div><b>First answer</b><span class="d">Students privately note an answer to one question.</span></div></li>
+    <li><span class="t">12–22 min</span><div><b>A structure</b><span class="d">Conclusion → specific example → what I did → result → link to the employer.</span></div></li>
+    <li><span class="t">22–37 min</span><div><b>Pair practice</b><span class="d">Answers and follow-up questions in pairs; the instructor circulates and collects common points.</span></div></li>
+    <li><span class="t">37–48 min</span><div><b>Second answer</b><span class="d">The same question again; volunteers receive live feedback.</span></div></li>
+    <li><span class="t">48–60 min</span><div><b>Wrap-up</b><span class="d">Each student writes the next question to practise; Q&amp;A and a short survey.</span></div></li>
+  </ol>
+  </div>
+  <p class="note" data-l="ja">見るのは、質問との関連性・具体例・自分の行動・簡潔さ・深掘りへの対応です。日本語の流暢さだけでは評価せず、採用の合否を予測するものでもありません。</p>
+  <p class="note" data-l="en">We look at relevance to the question, concrete examples, the student's own actions, brevity and handling follow-ups — not fluency alone. This does not predict hiring outcomes.</p>
+</section>
+
+<section id="example">
+  <h2 data-l="ja">回答はこう変わります <span class="tag">教材用の架空例</span></h2>
+  <h2 data-l="en">How an answer changes <span class="tag">Illustrative, not a real student</span></h2>
+  <p class="sub" data-l="ja">質問：「自己PRをお願いします。」 実在の受講者の事例ではありません。</p>
+  <p class="sub" data-l="en">Question: “Please tell us about yourself.” An illustration only; not a real participant.</p>
+  <div class="grid2" data-l="ja">
+    <div class="ba before"><p class="k">BEFORE</p><p>私は責任感があります。アルバイトでがんばりました。</p></div>
+    <div class="ba after"><p class="k">AFTER</p><p><mark>私の強みは、最後まで責任を持ってやり切ることです。</mark>大学のカフェのアルバイトで、閉店作業の抜けが月に数回ありました。<mark>そこで確認リストを作り、同僚と使い始めました。</mark>その結果、抜けはほぼなくなりました。<mark>御社でも、手順を整えて仕事を確実に進めたいです。</mark></p></div>
+  </div>
+  <div class="grid2" data-l="en">
+    <div class="ba before"><p class="k">BEFORE</p><p>“I am responsible. I worked hard at my part-time job.”</p></div>
+    <div class="ba after"><p class="k">AFTER</p><p><mark>“My strength is seeing things through to the end.”</mark> At my university café job, closing tasks were missed a few times a month. <mark>I made a checklist and started using it with my coworkers.</mark> The misses almost stopped. <mark>I would like to bring the same care for reliable procedures to your company.</mark></p></div>
+  </div>
+  <p class="note" data-l="ja">講師は事実を補いません。具体例や数字は、学生自身の実際の経験から引き出します。</p>
+  <p class="note" data-l="en">The instructor never adds facts. Examples and numbers come from the student's own real experience.</p>
+</section>
+
+<section id="roles">
+  <h2 data-l="ja">役割分担</h2><h2 data-l="en">Who does what</h2>
+  <p class="sub" data-l="ja">貴学のご負担は、日程の調整と学生への案内の配布が中心です。</p>
+  <p class="sub" data-l="en">Your part is mainly scheduling and sharing the invitation with students.</p>
+  <table>
+    <tr><th data-l="ja">貴学</th><th data-l="en">University</th>
+      <td data-l="ja">担当者との日程調整／学生への案内の配布／必要に応じた会議接続の補助</td>
+      <td data-l="en">A coordinating contact and scheduling / sharing the invitation with students / help with the meeting link if needed</td></tr>
+    <tr><th data-l="ja">主催者</th><th data-l="en">Organiser</th>
+      <td data-l="ja">教材と進行／改善ポイントの整理／講座後3営業日以内の、個人が特定されない結果報告</td>
+      <td data-l="en">Materials and facilitation / a summary of improvement points / an anonymised results report within 3 business days</td></tr>
+  </table>
+</section>
+
+<section id="faq">
+  <h2 data-l="ja">よくあるご質問</h2><h2 data-l="en">FAQ</h2>
+  <details data-l="ja"><summary>学生の日本語レベルが様々でも大丈夫ですか？</summary><div class="a">N2〜N3相当を目安にしています。資格は問いません。簡単な自己紹介と受け答えができる学生を想定しており、申込時に日本語の目安を伺って、人数と進め方を調整します。</div></details>
+  <details data-l="ja"><summary>録画や個人情報の扱いは？</summary><div class="a">録画は行いません。申込で取得するのは、運営に必要な最小限の情報（名前または呼ばれたい名前、大学、連絡先メール、日本語の目安など）です。パスポート・在留資格・住所・履歴書は求めません。大学への報告は個人が特定されない集計のみで、個人識別情報は講座終了の90日後に削除します。</div></details>
+  <details data-l="ja"><summary>費用はかかりますか？</summary><div class="a">最初の2大学に限り、双方合意の上で無料の体験講座を提案しています。継続講座は、内容と人数に応じて別途お見積りします。</div></details>
+  <details data-l="ja"><summary>学生に有料サービスの案内をされますか？</summary><div class="a">貴学が認めた場合に限り、学生本人が別途同意した人にだけ案内します（初期設定はオフ）。参加の条件にはしません。認められない場合は案内しません。</div></details>
+  <details data-l="ja"><summary>会議ツールや日程は？</summary><div class="a">貴学で使用しているツールに合わせて相談します。日時は貴学の授業・就職支援の予定に合わせて調整します。</div></details>
+  <details data-l="ja"><summary>日本での就職を保証する講座ですか？</summary><div class="a">いいえ。採用や内定を保証するものではなく、面接で自分の経験を伝える練習の機会です。</div></details>
+
+  <details data-l="en"><summary>What if students' Japanese levels vary?</summary><div class="a">We aim at roughly N2–N3, with no certificate required: students who can give a simple self-introduction and answer simple questions. We ask about level at registration and adjust group size and pacing.</div></details>
+  <details data-l="en"><summary>What about recording and personal data?</summary><div class="a">Sessions are not recorded. Registration collects only what is needed to run the session (name or preferred name, university, contact email, rough Japanese level). No passport, residence-status, address or CV details are requested. Reports to the university are anonymised, and identifying information is deleted 90 days after the session.</div></details>
+  <details data-l="en"><summary>Does it cost anything?</summary><div class="a">We propose a complimentary pilot session for the first two participating universities, by mutual agreement. Further sessions are quoted separately depending on scope and group size.</div></details>
+  <details data-l="en"><summary>Will you market paid services to our students?</summary><div class="a">Only if your university allows it, and only to students who separately opt in (off by default). It is never a condition of taking part. If it is not permitted, we will not offer it.</div></details>
+  <details data-l="en"><summary>Which meeting tool and what dates?</summary><div class="a">We can work with the tool your university already uses, and arrange the date around your teaching and career-support calendar.</div></details>
+  <details data-l="en"><summary>Is this a guarantee of a job in Japan?</summary><div class="a">No. It is a chance to practise explaining one's experience in an interview; it does not guarantee hiring or job offers.</div></details>
+</section>
+
+<section id="about">
+  <h2 data-l="ja">主催者について</h2><h2 data-l="en">About the organiser</h2>
+  <p data-l="ja">松下（Japan Career Support）。外国人の日本語面接練習・ビジネスコミュニケーション支援に取り組んでいます。<span class="tag">詳細な経歴は準備中</span><br>Japan Career Supportは、特定の企業・団体から独立した活動です。</p>
+  <p data-l="en">Koji Matsushita, Japan Career Support. I support learners with Japanese interview practice and workplace communication. <span class="tag">Fuller background coming soon</span><br>Japan Career Support operates independently of any company or organisation.</p>
+</section>
+
+<section id="contact">
+  <h2 data-l="ja">お問い合わせ</h2><h2 data-l="en">Contact</h2>
+  <p data-l="ja">日時・対象・実施方法は、貴学のご希望に合わせて相談できます。日程が決まりましたら、学生向けの案内文（日英）をお送りします。まずは下記までお気軽にご連絡ください。</p>
+  <p data-l="en">Date, audience and format can be arranged to suit your university. Once a date is set, we will send an invitation text (Japanese and English) for students. Please write to us at the address below.</p>
+  <p><a class="cta" href="mailto:japancareer.support@gmail.com">japancareer.support@gmail.com</a></p>
+</section>
+</main>
+
+<footer><div class="wrap">© Japan Career Support</div></footer>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.lang button');
+  function set(l){
+    document.documentElement.lang=l;
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    try{localStorage.setItem('jcs-lang',l)}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
+  var saved=null;try{saved=localStorage.getItem('jcs-lang')}catch(e){}
+  var q=(location.search.match(/[?&]lang=(ja|en)/)||[])[1];
+  set(q||saved||'ja');
+})();
+</script>
+</body>
+</html>
